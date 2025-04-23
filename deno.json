@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "sda": "deno run --node-modules-dir=auto -A --watch --check sda/main.ts",
+    "clean": "rm -rf .sda-cache && rm -rf .tmp"
+  },
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@nshiab/journalism": "jsr:@nshiab/journalism@^1.25.0",
+    "@nshiab/simple-data-analysis": "jsr:@nshiab/simple-data-analysis@^5.0.6",
+    "@observablehq/plot": "npm:@observablehq/plot@^0.6.17"
+  }
+}
