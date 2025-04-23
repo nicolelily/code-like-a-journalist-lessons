@@ -4,7 +4,7 @@
     "jsr:@nshiab/journalism@1": "1.23.2",
     "jsr:@nshiab/journalism@1.23.2": "1.23.2",
     "jsr:@nshiab/journalism@^1.25.0": "1.25.0",
-    "jsr:@nshiab/simple-data-analysis@^5.0.6": "5.0.6",
+    "jsr:@nshiab/simple-data-analysis@^5.0.7": "5.0.7",
     "npm:@duckdb/node-api@1.2.2-alpha.18": "1.2.2-alpha.18",
     "npm:@observablehq/plot@0": "0.6.17",
     "npm:@observablehq/plot@~0.6.17": "0.6.17",
@@ -58,8 +58,8 @@
         "npm:playwright-chromium"
       ]
     },
-    "@nshiab/simple-data-analysis@5.0.6": {
-      "integrity": "30b9082bd8ce28c76a39f37e1515b0984920512a268684b3ee47983eade93495",
+    "@nshiab/simple-data-analysis@5.0.7": {
+      "integrity": "5027a1771d610f9ad2bc42ec56b9468d20a6b1d1c33b45c0a017dff058b9d520",
       "dependencies": [
         "jsr:@nshiab/journalism@1",
         "jsr:@nshiab/journalism@1.23.2",
@@ -807,7 +807,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@nshiab/journalism@^1.25.0",
-      "jsr:@nshiab/simple-data-analysis@^5.0.6",
+      "jsr:@nshiab/simple-data-analysis@^5.0.7",
       "npm:@observablehq/plot@~0.6.17"
     ]
   }
